@@ -9,7 +9,7 @@
                     <div class="card">
                         <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
                             <ngb-panel title="{{model.problemName}}">
-                                <ng-template [innerHTML]="model.problemDescription |keepHtml" ngbPanelContent>
+                                <ng-template  ngbPanelContent>
                                     <div [innerHTML]="model.problemDescription |keepHtml">
 
                                     </div>
